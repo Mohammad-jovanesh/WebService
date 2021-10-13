@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body >
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        Logo
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#MyCollapse" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id=MyCollapse>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a  class="nav-link active" data-target="Home" role="button">Home</a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link" data-target="Services" role="button">Services</a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link" data-target="testimonial" role="button">testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link" data-target="Contact" role="button">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+ </nav>
+<section class="BigHero d-md-flex align-items-center pt-5" id="Home">
+  <div class="container d-md-flex align-items-center p-5 ">
+    <div class="BigHero_content ">
+
+
+      <div class="BigHero_content_title text-light pr-4 ">
+        <h1 class="mb-4 text-md-left text-center"><span class="bg-danger text-light rounded p-1 " >Let's</span> Become a <span >Developer</span></h1>
+        <p class="my-3 text-md-left text-center">We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role</p>
+         <button class="btn-primary p-2 rounded btn-lg mt-2 mb-sm-5 btn_custom_class" data-toggle="modal" data-target="#exampleModal">Start Now</button>
+      </div>
+  </div>
+  <div class="BigHero_image ">
+    <img src="./Image/casual-life-3d-likes.png" 
+    alt="Sorry Some image not loaded ..." 
+    class="img-fluid w-100">
+  </div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">We Will Contact You</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         <form>
+           <div class="form-group">
+             <label for="FirstName">First Name : </label>
+             <input type="text" class="form-control" id="FirstName">
+           </div>
+           <div class="form-group">
+            <label for="LastName">Last Name : </label>
+            <input type="text" class="form-control" id="LastName">
+          </div>
+          <div class="form-group">
+            <label for="Email">Email: </label>
+            <input type="email" class="form-control" id="Email">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone : </label>
+            <input type="number" class="form-control" id="phone">
+          </div>
+           </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-dark text-light p-3" id="About">
+  <div class="container d-md-flex justify-content-between align-items-center g-5">
+    <div class="Subscribe_Content w-100 text-center text-md-left">
+      <h1>Sign Up For Our Newsletter</h1>
+    </div>
+    <div class="mt-md-0 mt-5  input_custom_css">
+      <div class="input-group input_custom_css ">
+        <input type="email" class="form-control" placeholder="Enter Email" aria-label="Username" aria-describedby="basic-addon1">
+        <div class="input-group-prepend">
+          <button class="input-group-text bg-primary text-light" id="basic-addon1">Subscribe</button>
+        </div>
+      
+      </div>
+      
+    </div>
+  </div>
+</section>
+<section class="The Boxes bg-dark text-light py-5" id="Services">
+  <div class="container ">
+    <div class="row ">
+      <div class="
+      my-3 my-lg-0
+      col-lg-4 col-12  
+    
+      d-flex flex-column align-items-center justify-content-center 
+      text-center">
+    
+      <div class="card text-center text-dark py-2" style="width: 100%;">
+        <i class="fab fa-html5" style="font-size: 5rem;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+        
+      <div class="
+      my-3 my-lg-0
+      col-lg-4 col-12  
+      d-flex flex-column
+      align-items-center
+      justify-content-center 
+   
+      text-center">
+
+      <div class="card text-dark py-2" style="width: 100%;">
+        <i class="fab fa-css3-alt  text-dark" style="font-size: 5rem;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+
+
+      
+      </div>
+      <div class="
+      my-3 my-lg-0
+      col-lg-4 col-12  
+      
+      d-flex flex-column align-items-center justify-content-center 
+      text-center">
+     
+      <div class="card text-dark py-2" style="width: 100%;">
+        <i class="fab fa-js-square text-dark" style="font-size: 5rem;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      
+  </div>
+  
+</section>
+
+<section class="Learn_Section" >
+  <div class="container py-5">
+    <div class="d-flex flex-md-row flex-column justify-content-between align-items-center ">
+     <div class="col-md">
+      <img src="./Image/cyborg-107.png" alt="" class="img-fluid">
+     </div>
+      <div class="Learn_Text col-md ">
+        <h3 >Learn The Fundamentals</h3>
+        <p  class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique deleniti possimus magnam corporis ratione facere!</p>
+         <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque reiciendis eius autem eveniet mollitia, at asperiores suscipit quae similique laboriosam iste minus placeat odit velit quos, nulla architecto amet voluptates?</p>
+       </div>
+    </div>
+  </div>
+</section>
+<section class="Question_Section" style="margin-bottom: 5rem;">
+ <div class="container">
+  <div id="according" >
+    <div class="card">
+      <div class="card-header" id="Q_1">
+        <a class="nav-item nav-link btn text-left" data-target="#Anser_1" data-toggle="collapse">
+          what your name ?
+        </a>
+      </div>
+      <div class="collapse show" id="Anser_1" aria-labelledby="Q_1">
+        <div class="card-body"><p>Im my Name is Mohammad</p></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="Q_2">
+        <a class="btn nav-item nav-link text-left" data-toggle="collapse" data-target="#Anser_2">
+          what your lastName ?
+        </a>
+      </div>
+      <div class="collapse" id="Anser_2" aria-labelledby="Q_2">
+        <div class="card-body">
+          <p>Piramun</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+</section>
+<section class="testimonial_section bg-info p-5" id="testimonial">
+  <div class="text-center mb-5">
+    <h1 class="mb-3">Our Instructors</h1>
+    <p class="mb-5">Our instructors all have 5+ years working as a web developer in the industry</p>
+  </div>
+  <div class="container">
+    <div class="row testimonial">
+      
+      
+     
+      <div class="col-lg-4 col-12">
+        <div class="card py-3  mx-auto" style="width:20rem;">
+          <img class="card-img-top  rounded-circle mb-3 w-50 m-auto" src="./Image/11.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="lead card-text text-center">Name</p>
+            <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, ipsa.</p>
+            <div class="d-flex align-items-center justify-content-between w-50 mx-auto h4 ">
+              <a href="#" class="text-dark">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="text-dark">
+                <i class="fab fa-facebook"></i>
+              </a> 
+              <a href="#" class="text-dark">
+                <i class="fab fa-github-square"></i>
+              </a> 
+              <a href="#" class="text-dark">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-lg-4 col-12 my-lg-0 my-3">
+        <div class="card py-3 mx-auto" style="width:20rem;">
+          <img class="card-img-top  rounded-circle mb-3 w-50 m-auto" src="./Image/11.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="lead card-text text-center">Name</p>
+            <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, ipsa.</p>
+            <div class="d-flex align-items-center justify-content-between w-50 mx-auto h4 ">
+              <a href="#" class="text-dark">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="text-dark">
+                <i class="fab fa-facebook"></i>
+              </a> 
+              <a href="#" class="text-dark">
+                <i class="fab fa-github-square"></i>
+              </a> 
+              <a href="#" class="text-dark">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="col-lg-4  col-12">
+        <div class="card py-3 mx-auto" style="width:20rem;">
+          <img class="card-img-top  rounded-circle mb-3 w-50 m-auto" src="./Image/11.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="lead card-text text-center">Name</p>
+            <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, ipsa.</p>
+            <div class="d-flex align-items-center justify-content-between w-50 mx-auto h4 ">
+              <a href="#" class="text-dark">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="text-dark">
+                <i class="fab fa-facebook"></i>
+              </a> 
+              <a href="#" class="text-dark">
+                <i class="fab fa-github-square"></i>
+              </a> 
+              <a href="#" class="text-dark">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      
+      
+      
+
+    </div>
+  </div>
+</section>
+<section class="Contact_Section" id="Contact">
+     <div class="container">
+       <div class="row p-5 ">
+         <div class="col-lg-6 col-12 Contact_Content  ">
+              <h1 class="Content_Title text-uppercase h2 mb-5 text-center">Contact Info</h1>
+              <ul class="list-group w-100">
+                <li class="list-group-item"><strong>Main Location</strong> Almaty Samal-2</li>
+                <li class="list-group-item"><strong>Phone</strong>+7 705 457 51 75</li>
+                <li class="list-group-item"><strong>Email</strong>piramun.mohammad@gmail.com</li>
+              </ul>
+         </div>
+         <div class="col-lg-6 col-12 Contact_Map">
+          <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.0017700327626!2d76.95469888361846!3d43.2304225404068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f02fd456499%3A0xb94f925c7c33e6d8!2sSamal-2%2C%20Almaty%20050000!5e0!3m2!1sen!2skz!4v1634135489942!5m2!1sen!2skz" 
+          width="100%" height="450" style="border:0; border-radius: 1rem;" 
+          allowfullscreen="" loading="lazy">
+         </iframe>
+         </div>
+       </div>
+     </div>
+</section>
+
+<footer class="bg-primary position-relative">
+   <div class="container text-center text-light h3 p-3 ">
+    Copyright &copy; 2021 MohammadPiramun
+    <span class="TopBtn text-light h2 ">
+      <i class="fas fa-arrow-circle-up"></i>
+     </span>
+   </div>
+   
+  </footer>
+<script src="https://kit.fontawesome.com/039643d60d.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="./App.js"> </script>
+  
+</body>
+</html>

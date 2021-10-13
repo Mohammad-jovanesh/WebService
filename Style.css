@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.BigHero {
+    background-color: #444;
+}
+.TopBtn {
+   position: absolute;
+   right: 5%;
+   
+}
+@media screen and (max-width:767px){
+    .btn_custom_class {
+       display: block !important;
+       width: 100%;
+    }
+    .input_custom_css{
+        width: 100% !important;
+          
+    } 
+    
+    
+}
+@media screen and (min-width:767px){
+    
+    
+    .input_custom_css{
+        width: 100% !important;
+         
+
+    } 
+    
+}
